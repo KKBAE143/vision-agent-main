@@ -37,7 +37,7 @@ const nav = [
 export function AppShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background">
-      <div className="mx-auto flex max-w-[1400px] gap-6 p-4 lg:p-6">
+      <div className="flex w-full gap-6 p-4 lg:p-6">
         <Sidebar />
         <main className="min-w-0 flex-1 space-y-6 pb-24 lg:pb-0">
           <TopBar />
